@@ -1,0 +1,30 @@
+header{
+	position: relative;
+}
+
+.nav__item{
+	text-align: center;
+	border: 1px solid black;
+	padding: 8px 0px;
+}
+
+
+.nav__item:hover .content-list{
+	margin-top: 8px;
+	display: block;
+}
+
+
+[class*=content-list]{
+	background-color: lightblue;
+	position: absolute;
+	display:none;
+	width: 100vw;
+	text-align: left;
+	left:0;
+}
+
+ .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
